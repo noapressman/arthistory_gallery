@@ -11,7 +11,10 @@ const ARTWORK_DATA = [
     "era": "Prehistoric",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page3_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "b0d3c33e8dccc613",
+    "dhash": "189d0c321b2c941c",
+    "ahash": "ffc7ffdb8586c000"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_8_page8_img1",
@@ -22,7 +25,10 @@ const ARTWORK_DATA = [
     "era": "Prehistoric",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page8_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cecf3c30648dccc5",
+    "dhash": "b26171e8d4e870b2",
+    "ahash": "18183c3c7c3c1818"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_8_page8_img3",
@@ -33,7 +39,10 @@ const ARTWORK_DATA = [
     "era": "Prehistoric",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page8_img3.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c1c507ae1f283e6d",
+    "dhash": "c6ce929213a582f4",
+    "ahash": "22667afeffff6304"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_10_page10_img1",
@@ -44,7 +53,10 @@ const ARTWORK_DATA = [
     "era": "Prehistoric",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page10_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "82a51bb31c1d9d57",
+    "dhash": "98cfd6a7cce9e9f9",
+    "ahash": "0f67fbff7f3f041c"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_12_page12_img1",
@@ -55,7 +67,10 @@ const ARTWORK_DATA = [
     "era": "Prehistoric",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page12_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c0e37f56818d13ad",
+    "dhash": "c68dcaa283ec60e0",
+    "ahash": "60e06f7fff3c1000"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_14_page14_img1",
@@ -66,7 +81,10 @@ const ARTWORK_DATA = [
     "era": "Prehistoric",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page14_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "801e334d76f3165e",
+    "dhash": "7cf3f4d4e4c2dadc",
+    "ahash": "00181f7f7e7a7f2f"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_14_page14_img2",
@@ -77,7 +95,10 @@ const ARTWORK_DATA = [
     "era": "Prehistoric",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page14_img2.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "f36ac8a125b693aa",
+    "dhash": "c29b0d0e1e5e4cc4",
+    "ahash": "7be9c486c3e6e6fe"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_14_page14_img3",
@@ -88,7 +109,10 @@ const ARTWORK_DATA = [
     "era": "Prehistoric",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page14_img3.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "877e3123469b5e1c",
+    "dhash": "d8d271e9e5ebfaf8",
+    "ahash": "00001834373f7f7f"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_19_page19_img1",
@@ -99,7 +123,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page19_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c4bae8c799e49ac4",
+    "dhash": "d08d84ce686cc6b2",
+    "ahash": "ffc1f6623e306000"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_21_page21_img1",
@@ -110,7 +137,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page21_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e4cde584e1cdb0c3",
+    "dhash": "06e4aab3bdb5e48d",
+    "ahash": "f6364b980717f040"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_22_page22_img1",
@@ -121,7 +151,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page22_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "b6e1c11fdc3cc903",
+    "dhash": "0f0f0f2d2d2d2d2d",
+    "ahash": "ffe7e787870707ff"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_17_page17_img1",
@@ -132,7 +165,10 @@ const ARTWORK_DATA = [
     "era": "Prehistoric",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page17_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d0c02f1a6b972d3d",
+    "dhash": "e0a4a6a4b0b4fc18",
+    "ahash": "007e7e7e7c7e1c00"
   },
   {
     "id": "1.bezalel.intro 2026_page_3_page3_img2",
@@ -143,7 +179,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/1.bezalel.intro 2026_page3_img2.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9b6165197934e666",
+    "dhash": "b2716df0696979b2",
+    "ahash": "00183c3c3c3c3fff"
   },
   {
     "id": "3.bezalel.intro.mesopotamian.egyptian 2026_page_15_page15_img1",
@@ -154,7 +193,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/3.bezalel.intro.mesopotamian.egyptian 2026_page15_img1.jpeg",
     "presentation": "3.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "bf0fc0ecc3e090b3",
+    "dhash": "33775f3b3b37968c",
+    "ahash": "ff81818183c3c3e7"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_24_page24_img2",
@@ -165,7 +207,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page24_img2.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c3277e7ca52810d7",
+    "dhash": "6a60c8aaeab9b9b9",
+    "ahash": "00206c7bff5ddddc"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_13_page13_img4",
@@ -176,7 +221,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page13_img4.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "907e0f633d2c66a9",
+    "dhash": "79e9f4b498c8e8f0",
+    "ahash": "003c3c1e7e7c7e3e"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_20_page20_img2",
@@ -187,7 +235,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page20_img2.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cf1b783c394c3163",
+    "dhash": "3361c0f1e4e4e4c0",
+    "ahash": "183c3c3c3c30387c"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_25_page25_img1",
@@ -198,7 +249,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page25_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "a85de9821a86bd4f",
+    "dhash": "8393238dbd8faf1b",
+    "ahash": "e1c08101054fefcf"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_8_page8_img1",
@@ -209,7 +263,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page8_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e4c5925e9acc9e29",
+    "dhash": "ccc696231745179e",
+    "ahash": "f7e3c3db8080c347"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_11_page11_img1",
@@ -220,7 +277,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page11_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "f3bb0c0dcde092c6",
+    "dhash": "524d4d494b49ccc4",
+    "ahash": "ffa7efefa0206000"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_12_page12_img1",
@@ -231,7 +291,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page12_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d02e8f5b8d6d8552",
+    "dhash": "31199d959d9c9d9d",
+    "ahash": "9884444cccccccff"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_26_page26_img1",
@@ -242,7 +305,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page26_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9b6165197934e666",
+    "dhash": "b2716df0696979b2",
+    "ahash": "00183c3c3c3c3fff"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_28_page28_img1",
@@ -253,7 +319,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page28_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "af40956ec03dcb93",
+    "dhash": "c31d5b574b677ff8",
+    "ahash": "0000010181819f7f"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_29_page29_img1",
@@ -264,7 +333,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page29_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d13a0b2f6e256ae1",
+    "dhash": "37b89084c851eae0",
+    "ahash": "007fc842fe00fe7c"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_30_page30_img1",
@@ -275,7 +347,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page30_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c360a45fd940cf79",
+    "dhash": "a2ed54c83a6bce4d",
+    "ahash": "0000006ca83d00ff"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_33_page33_img1",
@@ -286,7 +361,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page33_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e06e11c13e743f96",
+    "dhash": "8783652524db8afd",
+    "ahash": "40ff00b0f708fe05"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_15_page15_img1",
@@ -297,7 +375,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page15_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "a1f1878f58e82d2d",
+    "dhash": "c8cc8f9b15d9fb75",
+    "ahash": "ffffc3c1002f0900"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_18_page18_img1",
@@ -308,7 +389,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page18_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c37f3496b7026e05",
+    "dhash": "08d333c9eae9c8ca",
+    "ahash": "0000017d7f7f7f7f"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_19_page19_img2",
@@ -319,7 +403,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page19_img2.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "a8c4e7815efa3d84",
+    "dhash": "968e97293b9a0f2b",
+    "ahash": "ffe7c38101c3c381"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_23_page23_img1",
@@ -330,7 +417,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page23_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "8466b31f66d23b91",
+    "dhash": "ece4e4e4e4f0f0dc",
+    "ahash": "247e7e763c183e7e"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_23_page23_img2",
@@ -341,7 +431,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page23_img2.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ad03bd528e401ff3",
+    "dhash": "df5747e38f9e9637",
+    "ahash": "03030101c142ffff"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_24_page24_img1",
@@ -352,7 +445,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page24_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "fb050717470f532b",
+    "dhash": "c000000001100100",
+    "ahash": "00c0e0f8f8fcfcf8"
   },
   {
     "id": "3.bezalel.intro.mesopotamian.egyptian 2026_page_3_page3_img1",
@@ -363,7 +459,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/3.bezalel.intro.mesopotamian.egyptian 2026_page3_img1.jpeg",
     "presentation": "3.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "f7e02487d6da8a8a",
+    "dhash": "46868b0940400402",
+    "ahash": "f7e3e9e0f0800000"
   },
   {
     "id": "3.bezalel.intro.mesopotamian.egyptian 2026_page_10_page10_img3",
@@ -374,7 +473,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/3.bezalel.intro.mesopotamian.egyptian 2026_page10_img3.jpeg",
     "presentation": "3.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d1548f151a1e9b6e",
+    "dhash": "dc84ac94d0d8c4e9",
+    "ahash": "0c7e7c54682e3eff"
   },
   {
     "id": "3.bezalel.intro.mesopotamian.egyptian 2026_page_4_page4_img1",
@@ -385,7 +487,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/3.bezalel.intro.mesopotamian.egyptian 2026_page4_img1.jpeg",
     "presentation": "3.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d1548f151a1e9b6e",
+    "dhash": "dc84ac94d0d8c4e9",
+    "ahash": "0c7e7c54682e3eff"
   },
   {
     "id": "3.bezalel.intro.mesopotamian.egyptian 2026_page_4_page4_img2",
@@ -396,7 +501,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/3.bezalel.intro.mesopotamian.egyptian 2026_page4_img2.jpeg",
     "presentation": "3.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "8e0bf10ff04ebc2c",
+    "dhash": "696961696161869e",
+    "ahash": "183838383830e3ff"
   },
   {
     "id": "6.intro.greek art.memesis_page_9_page9_img1",
@@ -407,7 +515,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/6.intro.greek art.memesis_page9_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e4719a0ef175163a",
+    "dhash": "40210486cbe6a640",
+    "ahash": "fcf0c0e0000013ff"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_27_page27_img1",
@@ -418,7 +529,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page27_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c12f5e4e8ff0cc0c",
+    "dhash": "e0f0e0cac3c0ccc8",
+    "ahash": "3838387f387c7e7c"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_28_page28_img1",
@@ -429,7 +543,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page28_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d0073f3e7e786860",
+    "dhash": "2cccd8f0d4d4cce0",
+    "ahash": "003e7e7e7e7e7efe"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_30_page30_img1",
@@ -440,7 +557,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page30_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "bd3d16e2c0d8d24b",
+    "dhash": "0e663ab3ca0e269c",
+    "ahash": "83038bdbe3e7c340"
   },
   {
     "id": "6.intro.greek art.memesis_page_10_page10_img1",
@@ -451,7 +571,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/6.intro.greek art.memesis_page10_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "fea081ce975790b8",
+    "dhash": "032bab2b292d2951",
+    "ahash": "ffc3c380818180ff"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_5_page5_img1",
@@ -462,7 +585,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page5_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "85194ebb398f56c4",
+    "dhash": "35d6c4dedecce6e4",
+    "ahash": "0006266f67677f30"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_6_page6_img1",
@@ -473,7 +599,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page6_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "96316bcdc7601e27",
+    "dhash": "4a7cac946c24c52c",
+    "ahash": "000706563f1e6080"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_18_page18_img1",
@@ -484,7 +613,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page18_img1.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ea97853895609ee3",
+    "dhash": "0221212909270bc3",
+    "ahash": "ffc181818181c1ff"
   },
   {
     "id": "3.bezalel.intro.mesopotamian.egyptian 2026_page_10_page10_img4",
@@ -495,7 +627,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/3.bezalel.intro.mesopotamian.egyptian 2026_page10_img4.jpeg",
     "presentation": "3.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e8c1f07f9f400b0f",
+    "dhash": "819683916113979f",
+    "ahash": "f8e0e0789080c0c7"
   },
   {
     "id": "5.intro.greek art.memesis_page_6_page6_img1",
@@ -506,7 +641,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/5.intro.greek art.memesis_page6_img1.jpeg",
     "presentation": "5.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "f2a3c74f313044db",
+    "dhash": "8f8b8d9d89a5a88c",
+    "ahash": "ffffe7c7c5000000"
   },
   {
     "id": "5.intro.greek art.memesis_page_7_page7_img1",
@@ -517,7 +655,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/5.intro.greek art.memesis_page7_img1.jpeg",
     "presentation": "5.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "f9b99bc27a93a021",
+    "dhash": "1b121a020383d143",
+    "ahash": "fffffff8c0400000"
   },
   {
     "id": "5.intro.greek art.memesis_page_4_page4_img1",
@@ -528,7 +669,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/5.intro.greek art.memesis_page4_img1.jpeg",
     "presentation": "5.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ee9ac625298eb629",
+    "dhash": "81810121070647c6",
+    "ahash": "f1f8f0f1c1e3e0f0"
   },
   {
     "id": "3.bezalel.intro.mesopotamian.egyptian 2026_page_6_page6_img1",
@@ -539,7 +683,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/3.bezalel.intro.mesopotamian.egyptian 2026_page6_img1.jpeg",
     "presentation": "3.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e8c1f07f9f400b0f",
+    "dhash": "819683916113979d",
+    "ahash": "f8e0e0789080c0c7"
   },
   {
     "id": "2.bezalel.intro.from the caves to civilization 2026_page_19_page19_img2",
@@ -550,7 +697,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/2.bezalel.intro.from the caves to civilization 2026_page19_img2.jpeg",
     "presentation": "2.bezalel.intro.from the caves to civilization 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9e1c6938e3273696",
+    "dhash": "b2f1686070b069c9",
+    "ahash": "181c3c3c3c1c1c3c"
   },
   {
     "id": "5.intro.greek art.memesis_page_9_page9_img1",
@@ -561,7 +711,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/5.intro.greek art.memesis_page9_img1.jpeg",
     "presentation": "5.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ce21f32d3c3c70e1",
+    "dhash": "62e1d17171727161",
+    "ahash": "18387c1c3838383c"
   },
   {
     "id": "5.intro.greek art.memesis_page_10_page10_img1",
@@ -572,7 +725,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/5.intro.greek art.memesis_page10_img1.jpeg",
     "presentation": "5.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cc8c2c78b66cb363",
+    "dhash": "b460616060b03361",
+    "ahash": "10387cfcf8f830fc"
   },
   {
     "id": "5.intro.greek art.memesis_page_12_page12_img1",
@@ -583,7 +739,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/5.intro.greek art.memesis_page12_img1.jpeg",
     "presentation": "5.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cc191b66e664b366",
+    "dhash": "b0b2d0b4a4a4c4c1",
+    "ahash": "181818f0f2f6f0fc"
   },
   {
     "id": "5.intro.greek art.memesis_page_12_page12_img2",
@@ -594,7 +753,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/5.intro.greek art.memesis_page12_img2.jpeg",
     "presentation": "5.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c9185c396c74b367",
+    "dhash": "b27071f2ca5840c1",
+    "ahash": "183c3c78e8eee0f8"
   },
   {
     "id": "6.intro.greek art.memesis_page_14_page14_img1",
@@ -605,7 +767,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/6.intro.greek art.memesis_page14_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "a6e5811eeb3914ce",
+    "dhash": "cf4f860b456cadcd",
+    "ahash": "ffe7c3c381040000"
   },
   {
     "id": "5.intro.greek art.memesis_page_13_page13_img1",
@@ -616,7 +781,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/5.intro.greek art.memesis_page13_img1.jpeg",
     "presentation": "5.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cfcc2c39b26cc139",
+    "dhash": "b2f1e0e0597a73f0",
+    "ahash": "183c3c3c2c18183c"
   },
   {
     "id": "7.greek late periods.roman_page_3_page3_img2",
@@ -627,7 +795,10 @@ const ARTWORK_DATA = [
     "era": "Ancient Near East & Egypt",
     "image_path": "images/7.greek late periods.roman_page3_img2.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ccb43a385365c33b",
+    "dhash": "b4f060e0f0f0b2e0",
+    "ahash": "18383c3838181838"
   },
   {
     "id": "6.intro.greek art.memesis_page_16_page16_img1",
@@ -638,7 +809,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page16_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "da2750273c65cd99",
+    "dhash": "0439f189395599b9",
+    "ahash": "000c3cf0ddedfcdc"
   },
   {
     "id": "6.intro.greek art.memesis_page_17_page17_img1",
@@ -649,7 +823,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page17_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9d3d61c78c388778",
+    "dhash": "3a3a3a30307030e0",
+    "ahash": "00020e9ebebefefe"
   },
   {
     "id": "6.intro.greek art.memesis_page_18_page18_img1",
@@ -660,7 +837,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page18_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "93332c542b6d93bc",
+    "dhash": "e8dd5969f9f8a2b3",
+    "ahash": "00042c3c3c7cfb5f"
   },
   {
     "id": "6.intro.greek art.memesis_page_19_page19_img1",
@@ -671,7 +851,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page19_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "95376cc99b708a66",
+    "dhash": "ee666e58fae2a624",
+    "ahash": "0002070f3f3f72ff"
   },
   {
     "id": "5.intro.greek art.memesis_page_17_page17_img1",
@@ -682,7 +865,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/5.intro.greek art.memesis_page17_img1.jpeg",
     "presentation": "5.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "8eb269386a38c7e6",
+    "dhash": "b37068696132b271",
+    "ahash": "083c3c3c3c181838"
   },
   {
     "id": "5.intro.greek art.memesis_page_18_page18_img1",
@@ -693,7 +879,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/5.intro.greek art.memesis_page18_img1.jpeg",
     "presentation": "5.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e53acd939264c959",
+    "dhash": "cc8e972d08ce46c6",
+    "ahash": "27c3c3c7e7e3e2fb"
   },
   {
     "id": "12.renaissance.intro_page_9_page9_img1",
@@ -704,7 +893,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/12.renaissance.intro_page9_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cb9d343978649987",
+    "dhash": "b270f0f2e9e8eac8",
+    "ahash": "183c3c783c383060"
   },
   {
     "id": "6.intro.greek art.memesis_page_2_page2_img1",
@@ -715,7 +907,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page2_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "8eb0616c666e9b35",
+    "dhash": "859a78656579e3d1",
+    "ahash": "707f1f34341c3038"
   },
   {
     "id": "6.intro.greek art.memesis_page_3_page3_img1",
@@ -726,7 +921,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page3_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cb9d343978649987",
+    "dhash": "b270f0f2e9e8eac8",
+    "ahash": "183c3c783c383060"
   },
   {
     "id": "6.intro.greek art.memesis_page_24_page24_img1",
@@ -737,7 +935,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page24_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "b306c4136b5f39c3",
+    "dhash": "f4ec8e2bd99daea2",
+    "ahash": "0026478141cffffb"
   },
   {
     "id": "6.intro.greek art.memesis_page_29_page29_img1",
@@ -748,7 +949,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page29_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "80b976836b4d6e8e",
+    "dhash": "989cb693ebeac495",
+    "ahash": "4f4f5b5979707040"
   },
   {
     "id": "6.intro.greek art.memesis_page_29_page29_img2",
@@ -759,7 +963,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page29_img2.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "88705787539e568f",
+    "dhash": "bcb2b3b3aba3e3db",
+    "ahash": "1e5b595b5b3b3b3d"
   },
   {
     "id": "6.intro.greek art.memesis_page_29_page29_img3",
@@ -770,7 +977,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page29_img3.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "b1d11d045b3763ce",
+    "dhash": "eab28a8a87ce7c39",
+    "ahash": "7effefe7f1030708"
   },
   {
     "id": "6.intro.greek art.memesis_page_30_page30_img1",
@@ -781,7 +991,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page30_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "dda6ea866e812f81",
+    "dhash": "2c3c5a5a1a1a9030",
+    "ahash": "fede8e0a8a8e4e88"
   },
   {
     "id": "6.intro.greek art.memesis_page_30_page30_img2",
@@ -792,7 +1005,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page30_img2.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "91d28dd087db1cdc",
+    "dhash": "c8a99a5aaab29272",
+    "ahash": "ff6ccc0dce5a081b"
   },
   {
     "id": "6.intro.greek art.memesis_page_30_page30_img3",
@@ -803,7 +1019,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page30_img3.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c3a1d01f29965b9b",
+    "dhash": "d0d64dc7536ca8d8",
+    "ahash": "6cfaf4f380a4fcec"
   },
   {
     "id": "6.intro.greek art.memesis_page_27_page27_img1",
@@ -814,7 +1033,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page27_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e73a5f6d1220e472",
+    "dhash": "71656dcc55565364",
+    "ahash": "0000f76ff7f3fbfe"
   },
   {
     "id": "6.intro.greek art.memesis_page_31_page31_img1",
@@ -825,7 +1047,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page31_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "99a648b1b6c9b572",
+    "dhash": "fffdfdffdddad3db",
+    "ahash": "1f1f1f1f0f0f0909"
   },
   {
     "id": "6.intro.greek art.memesis_page_32_page32_img1",
@@ -836,7 +1061,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/6.intro.greek art.memesis_page32_img1.jpeg",
     "presentation": "6.intro.greek art.memesis",
-    "page_number": ""
+    "page_number": "",
+    "phash": "938cd26e84730d9f",
+    "dhash": "f0b050d46e49190c",
+    "ahash": "ffff1ecf9f000404"
   },
   {
     "id": "1.bezalel.intro 2026_page_3_page3_img4",
@@ -847,7 +1075,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/1.bezalel.intro 2026_page3_img4.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cb9d343978649987",
+    "dhash": "b270f0f2e9e9eac8",
+    "ahash": "183c3c783c3c3060"
   },
   {
     "id": "7.greek late periods.roman_page_3_page3_img1",
@@ -858,7 +1089,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page3_img1.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "8ee97936d662c168",
+    "dhash": "21716165656c2d6c",
+    "ahash": "91b9fdbd3616041c"
   },
   {
     "id": "7.greek late periods.roman_page_4_page4_img3",
@@ -869,7 +1103,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page4_img3.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9619636e783b6c0d",
+    "dhash": "19f8fc3c746c4cdc",
+    "ahash": "0c3e1e1e1e36246c"
   },
   {
     "id": "7.greek late periods.roman_page_4_page4_img2",
@@ -880,7 +1117,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page4_img2.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ce6d323866306d9b",
+    "dhash": "a462626262b0a968",
+    "ahash": "1038383838181c3c"
   },
   {
     "id": "7.greek late periods.roman_page_4_page4_img1",
@@ -891,7 +1131,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page4_img1.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "edc999c738c29c43",
+    "dhash": "226367e7e7e6c71f",
+    "ahash": "fbf1f1f1f1f3e083"
   },
   {
     "id": "7.greek late periods.roman_page_5_page5_img1",
@@ -902,7 +1145,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page5_img1.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9619636e783b6c0d",
+    "dhash": "19f8fc3c746c4cdc",
+    "ahash": "0c3e1e1e1e36246c"
   },
   {
     "id": "7.greek late periods.roman_page_6_page6_img1",
@@ -913,7 +1159,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page6_img1.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "94ea397568376c16",
+    "dhash": "b2f0e4e4ecacecfc",
+    "ahash": "003c7e7e7e3e2e1c"
   },
   {
     "id": "7.greek late periods.roman_page_6_page6_img2",
@@ -924,7 +1173,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page6_img2.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "f0a90f66076d313e",
+    "dhash": "68a89a968c8d0968",
+    "ahash": "ffffffe2e4c0e000"
   },
   {
     "id": "7.greek late periods.roman_page_9_page9_img1",
@@ -935,7 +1187,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page9_img1.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c46e6b34b03e1b0f",
+    "dhash": "a4e7e2a6f6f0e6d2",
+    "ahash": "0030387e7e7e7a7a"
   },
   {
     "id": "1.bezalel.intro 2026_page_9_page9_img2",
@@ -946,7 +1201,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/1.bezalel.intro 2026_page9_img2.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ccae2736e6193b81",
+    "dhash": "6de271b1e0f1f0f1",
+    "ahash": "303c383838181838"
   },
   {
     "id": "7.greek late periods.roman_page_7_page7_img1",
@@ -957,7 +1215,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page7_img1.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9e4f653667366031",
+    "dhash": "6561f16971b87cf8",
+    "ahash": "30383c3c3c1c0e3e"
   },
   {
     "id": "7.greek late periods.roman_page_8_page8_img1",
@@ -968,7 +1229,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page8_img1.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "908f4a23ad68a6fb",
+    "dhash": "f9f87836dedc98b8",
+    "ahash": "3f3e3e1e0f0c4c1c"
   },
   {
     "id": "7.greek late periods.roman_page_8_page8_img2",
@@ -979,7 +1243,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page8_img2.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9c6c6633d324669b",
+    "dhash": "b4f0b2f27ab9b971",
+    "ahash": "10181818181c1c3c"
   },
   {
     "id": "7.greek late periods.roman_page_8_page8_img3",
@@ -990,7 +1257,10 @@ const ARTWORK_DATA = [
     "era": "Classical Antiquity",
     "image_path": "images/7.greek late periods.roman_page8_img3.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c3e32e2502273ff8",
+    "dhash": "c0c1e1c8d06cecf9",
+    "ahash": "30787c7c7c3e1e1c"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_10_page10_img1",
@@ -1001,7 +1271,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page10_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "b0ff378a5948701d",
+    "dhash": "aa4c0e96b2ab8c8e",
+    "ahash": "ffe7c3c3dbdf0000"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_12_page12_img1",
@@ -1012,7 +1285,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page12_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d26c96d0ec9ec127",
+    "dhash": "a4acc4a0d4d46ccc",
+    "ahash": "fe5420d070fcfc6c"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_16_page16_img1",
@@ -1023,7 +1299,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page16_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "91fa36e1988d50be",
+    "dhash": "392d38f2ceccc6ec",
+    "ahash": "cdc59e7fff602004"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_17_page17_img2",
@@ -1034,7 +1313,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page17_img2.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "857ea4a07ed1be44",
+    "dhash": "64e2e4e8e0d8c8e6",
+    "ahash": "ff30000800ff7e00"
   },
   {
     "id": "11.renaissance beginnings_page_2_page2_img2",
@@ -1045,7 +1327,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/11.renaissance beginnings_page2_img2.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "857ea4a07ed1be44",
+    "dhash": "64e2e4e8e0d8c8e6",
+    "ahash": "ff30000800ff7e00"
   },
   {
     "id": "11.renaissance beginnings_page_2_page2_img1",
@@ -1056,7 +1341,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/11.renaissance beginnings_page2_img1.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e525995ba4966b45",
+    "dhash": "17060686a479e8c0",
+    "ahash": "0303c3e7f0fcfcfe"
   },
   {
     "id": "11.renaissance beginnings_page_13_page13_img1",
@@ -1067,7 +1355,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/11.renaissance beginnings_page13_img1.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d96c012a16355fdb",
+    "dhash": "f3b3323231339230",
+    "ahash": "1018989ad898ffff"
   },
   {
     "id": "11.renaissance beginnings_page_14_page14_img1",
@@ -1078,7 +1369,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/11.renaissance beginnings_page14_img1.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e81d43c21bce0ddb",
+    "dhash": "e0863733abc7c3ab",
+    "ahash": "38008091fdffffe1"
   },
   {
     "id": "11.renaissance beginnings_page_15_page15_img1",
@@ -1089,7 +1383,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/11.renaissance beginnings_page15_img1.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ecab8b05683cbcac",
+    "dhash": "63492526a7b622e1",
+    "ahash": "392dffc0d0d2baf0"
   },
   {
     "id": "11.renaissance beginnings_page_15_page15_img2",
@@ -1100,7 +1397,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/11.renaissance beginnings_page15_img2.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9c3ef201e2c639e5",
+    "dhash": "85353575f392a003",
+    "ahash": "c0011f143b1afcf0"
   },
   {
     "id": "7.greek late periods.roman_page_10_page10_img1",
@@ -1111,7 +1411,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/7.greek late periods.roman_page10_img1.jpeg",
     "presentation": "7.greek late periods.roman",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c0409f077ebf28ba",
+    "dhash": "62c19164a5c36c30",
+    "ahash": "3078f8f070313fff"
   },
   {
     "id": "8.roman.early christianity_page_8_page8_img1",
@@ -1122,7 +1425,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page8_img1.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "a28ecdb1fa74cac0",
+    "dhash": "a1ddc1cdddcccccd",
+    "ahash": "ff3f79064746666f"
   },
   {
     "id": "8.roman.early christianity_page_9_page9_img1",
@@ -1133,7 +1439,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page9_img1.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "90796d3a4d3dc916",
+    "dhash": "2d99d8d4adbdade6",
+    "ahash": "006c7e7e5c4c1430"
   },
   {
     "id": "8.roman.early christianity_page_10_page10_img1",
@@ -1144,7 +1453,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page10_img1.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "854b2e763175c0de",
+    "dhash": "696bf2dabaee6464",
+    "ahash": "00097e0f7f7f3f3f"
   },
   {
     "id": "8.roman.early christianity_page_11_page11_img1",
@@ -1155,7 +1467,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page11_img1.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "80a72d3f235af668",
+    "dhash": "6eca85dcd03c31d3",
+    "ahash": "027f7f7e1c1c1808"
   },
   {
     "id": "8.roman.early christianity_page_11_page11_img2",
@@ -1166,7 +1481,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page11_img2.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "bfee9024f542c742",
+    "dhash": "263b69270f0facf8",
+    "ahash": "ffdfbd818300001e"
   },
   {
     "id": "8.roman.early christianity_page_22_page22_img1",
@@ -1177,7 +1495,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page22_img1.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cca6432b0e3e1f9a",
+    "dhash": "c48b35343513b1f1",
+    "ahash": "307fdf9290985838"
   },
   {
     "id": "8.roman.early christianity_page_15_page15_img1",
@@ -1188,7 +1509,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page15_img1.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "afd4b09b9287ca85",
+    "dhash": "1f3627654513571f",
+    "ahash": "ffc393b181810383"
   },
   {
     "id": "8.roman.early christianity_page_19_page19_img1",
@@ -1199,7 +1523,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page19_img1.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "de88887fa62a1d65",
+    "dhash": "61b0754d0c716969",
+    "ahash": "10ff1885e6bc20f5"
   },
   {
     "id": "8.roman.early christianity_page_21_page21_img1",
@@ -1210,7 +1537,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page21_img1.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "8d285c137d2277dc",
+    "dhash": "b3b3a786565ab232",
+    "ahash": "00101103ffffffff"
   },
   {
     "id": "8.roman.early christianity_page_22_page22_img2",
@@ -1221,7 +1551,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page22_img2.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ceae66b33af43480",
+    "dhash": "6565a5297988c1a1",
+    "ahash": "25b0f0bdfde4f000"
   },
   {
     "id": "8.roman.early christianity_page_17_page17_img2",
@@ -1232,7 +1565,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/8.roman.early christianity_page17_img2.jpeg",
     "presentation": "8.roman.early christianity",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9ee9e46868c3332d",
+    "dhash": "f93078793c7c787c",
+    "ahash": "3d1f1f1c0c0f3e04"
   },
   {
     "id": "9.intro.medieval europe_page_4_page4_img1",
@@ -1243,7 +1579,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/9.intro.medieval europe_page4_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "8fda15255e63704d",
+    "dhash": "f1f1f1e9a387c6f0",
+    "ahash": "1c3f7d3d3303231e"
   },
   {
     "id": "9.intro.medieval europe_page_4_page4_img4",
@@ -1254,7 +1593,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/9.intro.medieval europe_page4_img4.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e59c52c3184f2dcd",
+    "dhash": "c826262286868f87",
+    "ahash": "fed793c3c3e3e0c0"
   },
   {
     "id": "9.intro.medieval europe_page_4_page4_img5",
@@ -1265,7 +1607,10 @@ const ARTWORK_DATA = [
     "era": "Late Antiquity",
     "image_path": "images/9.intro.medieval europe_page4_img5.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ceb1b926b4569c43",
+    "dhash": "a723406041616123",
+    "ahash": "fff8f8f0f0f0f0f9"
   },
   {
     "id": "9.intro.medieval europe_page_30_page30_img2",
@@ -1276,7 +1621,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page30_img2.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ace49b934e93b90c",
+    "dhash": "4da6a66767dad93b",
+    "ahash": "fff3fbf3000f0900"
   },
   {
     "id": "9.intro.medieval europe_page_31_page31_img2",
@@ -1287,7 +1635,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page31_img2.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ace49b934e93b90c",
+    "dhash": "4da6a66767dad93b",
+    "ahash": "fff3fbf3000f0900"
   },
   {
     "id": "9.intro.medieval europe_page_19_page19_img1",
@@ -1298,7 +1649,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page19_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "81ad75a27086db9e",
+    "dhash": "c78362e799db64d0",
+    "ahash": "e3e33b3b7d793c00"
   },
   {
     "id": "9.intro.medieval europe_page_20_page20_img2",
@@ -1309,7 +1663,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page20_img2.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ab6049635973199f",
+    "dhash": "c7a7336f4d5d5571",
+    "ahash": "00031bff3f3f3d19"
   },
   {
     "id": "9.intro.medieval europe_page_20_page20_img3",
@@ -1320,7 +1677,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page20_img3.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "dbae00253a397f61",
+    "dhash": "31c44879681292b0",
+    "ahash": "017e3c9cbcda6a58"
   },
   {
     "id": "9.intro.medieval europe_page_7_page7_img1",
@@ -1331,7 +1691,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page7_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d0ef77a182c914f8",
+    "dhash": "4241b1f998909a8c",
+    "ahash": "fff8187c5c5ec804"
   },
   {
     "id": "9.intro.medieval europe_page_9_page9_img1",
@@ -1342,7 +1705,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page9_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cde54d4a1737270a",
+    "dhash": "72328e4c71555575",
+    "ahash": "3affe7e718101010"
   },
   {
     "id": "9.intro.medieval europe_page_10_page10_img1",
@@ -1353,7 +1719,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page10_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d0243fbadc18927d",
+    "dhash": "3ccedcd4d4e8b870",
+    "ahash": "00002c7efe7e3c9c"
   },
   {
     "id": "9.intro.medieval europe_page_12_page12_img1",
@@ -1364,7 +1733,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page12_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d2a72f221359d88f",
+    "dhash": "e8ccccdcccd4d469",
+    "ahash": "24267e7e647c383c"
   },
   {
     "id": "9.intro.medieval europe_page_14_page14_img1",
@@ -1375,7 +1747,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page14_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c0272fd11fd225d9",
+    "dhash": "ce8e868c9296c8c8",
+    "ahash": "6262627e7e7a7c20"
   },
   {
     "id": "9.intro.medieval europe_page_16_page16_img1",
@@ -1386,7 +1761,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page16_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d0243fbadc18927d",
+    "dhash": "3ccedcd4d4e8b870",
+    "ahash": "00002c7efe7e3c9c"
   },
   {
     "id": "9.intro.medieval europe_page_25_page25_img1",
@@ -1397,7 +1775,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page25_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "daa2f4ebd09f404a",
+    "dhash": "8c496971717155b4",
+    "ahash": "ffa1051d18b9bd50"
   },
   {
     "id": "9.intro.medieval europe_page_27_page27_img1",
@@ -1408,7 +1789,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page27_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "8af0f4d4f43449b3",
+    "dhash": "b6c9492d69717d79",
+    "ahash": "dffd21013d190f3d"
   },
   {
     "id": "9.intro.medieval europe_page_21_page21_img1",
@@ -1419,7 +1803,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page21_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "874c5a675c8147f3",
+    "dhash": "e0daceaaeececedc",
+    "ahash": "00003f1f27276f06"
   },
   {
     "id": "9.intro.medieval europe_page_22_page22_img1",
@@ -1430,7 +1817,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page22_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ec83764bbf50290d",
+    "dhash": "234592b273938007",
+    "ahash": "fbffdbff3b4080c0"
   },
   {
     "id": "9.intro.medieval europe_page_23_page23_img1",
@@ -1441,7 +1831,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page23_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d61469e231cf4769",
+    "dhash": "ecbc74ecac6c65e1",
+    "ahash": "20063e7e0e363530"
   },
   {
     "id": "9.intro.medieval europe_page_30_page30_img1",
@@ -1452,7 +1845,10 @@ const ARTWORK_DATA = [
     "era": "Early Medieval",
     "image_path": "images/9.intro.medieval europe_page30_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "f087def20bd0308f",
+    "dhash": "4c4c8c94cd9d8c9a",
+    "ahash": "e4ffe64001c7e600"
   },
   {
     "id": "9.intro.medieval europe_page_31_page31_img1",
@@ -1463,7 +1859,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/9.intro.medieval europe_page31_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c1669f3946c15b4e",
+    "dhash": "c00ad5c4a69bdee4",
+    "ahash": "78c0f060c0c97f3e"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_3_page3_img1",
@@ -1474,7 +1873,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page3_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9870071b39fcc72d",
+    "dhash": "71f4a4b1b3f8f2e2",
+    "ahash": "000000c819ffffff"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_3_page3_img2",
@@ -1485,7 +1887,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page3_img2.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c299c64e6994b9ad",
+    "dhash": "71c8d0c83328eccd",
+    "ahash": "3c7cff7c00103424"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_8_page8_img1",
@@ -1496,7 +1901,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page8_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "bfb78063ebc090d1",
+    "dhash": "6b2b2f2b2b2be870",
+    "ahash": "ffa7ff8181803c7f"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_4_page4_img1",
@@ -1507,7 +1915,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page4_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "a7097bb4c6dbc910",
+    "dhash": "cbdfd3e5e6662c47",
+    "ahash": "0100387737b7f731"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_5_page5_img1",
@@ -1518,7 +1929,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page5_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e77adc2e1020de27",
+    "dhash": "098b8c8f4f46c6ea",
+    "ahash": "00004040e3ffffff"
   },
   {
     "id": "1.bezalel.intro 2026_page_3_page3_img3",
@@ -1529,7 +1943,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/1.bezalel.intro 2026_page3_img3.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "a2f595f7d052890e",
+    "dhash": "8e0f0f4d4d4d4d45",
+    "ahash": "ffc7818505010187"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_11_page11_img1",
@@ -1540,7 +1957,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page11_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ff7f3c00c00af50b",
+    "dhash": "0e1f1f28c8051517",
+    "ahash": "808181fcfcc0c1f7"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_11_page11_img2",
@@ -1551,7 +1971,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page11_img2.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c3003ffdd5c0c0ed",
+    "dhash": "f0c1c1c9c351534b",
+    "ahash": "3800707df8fde9ff"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_13_page13_img2",
@@ -1562,7 +1985,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page13_img2.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e4815e0e875a6e9b",
+    "dhash": "4d8e8e8e8ea52d2d",
+    "ahash": "00e3c3e7e6c190d4"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_13_page13_img1",
@@ -1573,7 +1999,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page13_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c00f1e383fc16f6c",
+    "dhash": "71e0c0e0969096b6",
+    "ahash": "003c7c7e5a7e7e7e"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_15_page15_img1",
@@ -1584,7 +2013,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page15_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "a2f595f7d052890e",
+    "dhash": "8e0f1f4d4d4d4d45",
+    "ahash": "ffc7810505010187"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_18_page18_img2",
@@ -1595,7 +2027,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page18_img2.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "88ae76a6659a499d",
+    "dhash": "a7a7f3f3f3f30980",
+    "ahash": "331319193b79f8e0"
   },
   {
     "id": "10.intro.medieval europe.renaissance beginnings_page_18_page18_img1",
@@ -1606,7 +2041,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/10.intro.medieval europe.renaissance beginnings_page18_img1.jpeg",
     "presentation": "10.intro.medieval europe.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d5d50a2a77873a68",
+    "dhash": "f8a8cc5c1233d7c4",
+    "ahash": "187efeee88093b20"
   },
   {
     "id": "11.renaissance beginnings_page_3_page3_img2",
@@ -1617,7 +2055,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/11.renaissance beginnings_page3_img2.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "88ae76a6659a499d",
+    "dhash": "a7a7f3f3f3f30980",
+    "ahash": "331319193b79f8e0"
   },
   {
     "id": "11.renaissance beginnings_page_3_page3_img1",
@@ -1628,7 +2069,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/11.renaissance beginnings_page3_img1.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d5d50a2a77873a68",
+    "dhash": "f8a8cc5c1233d7c4",
+    "ahash": "187efeee88093b20"
   },
   {
     "id": "11.renaissance beginnings_page_4_page4_img1",
@@ -1639,7 +2083,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/11.renaissance beginnings_page4_img1.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "80fe5395c3e2c276",
+    "dhash": "c836a5a7b6b6be99",
+    "ahash": "6f0397731b7f0e4d"
   },
   {
     "id": "11.renaissance beginnings_page_5_page5_img1",
@@ -1650,7 +2097,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/11.renaissance beginnings_page5_img1.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "a8e543c570fa4db4",
+    "dhash": "85e82695b4aaa9a9",
+    "ahash": "00ffbfc1d73bbf00"
   },
   {
     "id": "11.renaissance beginnings_page_11_page11_img1",
@@ -1661,7 +2111,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/11.renaissance beginnings_page11_img1.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "fab38ec6e4999190",
+    "dhash": "0f4d1b170d4d1715",
+    "ahash": "ffe7818140e7db81"
   },
   {
     "id": "11.renaissance beginnings_page_10_page10_img2",
@@ -1672,7 +2125,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/11.renaissance beginnings_page10_img2.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ccb3314f46b1a2ae",
+    "dhash": "303333616070b2b2",
+    "ahash": "1818ff3c38381818"
   },
   {
     "id": "11.renaissance beginnings_page_10_page10_img1",
@@ -1683,7 +2139,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/11.renaissance beginnings_page10_img1.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "8da72c595b59c6a4",
+    "dhash": "3033337070b2b2b0",
+    "ahash": "18dbff1818181818"
   },
   {
     "id": "12.renaissance.intro_page_5_page5_img1",
@@ -1694,7 +2153,10 @@ const ARTWORK_DATA = [
     "era": "Medieval",
     "image_path": "images/12.renaissance.intro_page5_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c7e03e03748dfd12",
+    "dhash": "ccdc54c4cc52d22c",
+    "ahash": "006cfff6643a3a94"
   },
   {
     "id": "11.renaissance beginnings_page_12_page12_img1",
@@ -1705,7 +2167,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/11.renaissance beginnings_page12_img1.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "ae5913964b0a5e79",
+    "dhash": "f08e337323ac2f47",
+    "ahash": "00000019ffffffe7"
   },
   {
     "id": "11.renaissance beginnings_page_12_page12_img2",
@@ -1716,7 +2181,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/11.renaissance beginnings_page12_img2.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c19e7e016572d30f",
+    "dhash": "8820c8c8c0c89803",
+    "ahash": "00fefc7e7e7e0000"
   },
   {
     "id": "11.renaissance beginnings_page_11_page11_img2",
@@ -1727,7 +2195,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/11.renaissance beginnings_page11_img2.jpeg",
     "presentation": "11.renaissance beginnings",
-    "page_number": ""
+    "page_number": "",
+    "phash": "f1dd8667999026c6",
+    "dhash": "8e8c96925f4796ec",
+    "ahash": "fff6fece80007e02"
   },
   {
     "id": "12.renaissance.intro_page_6_page6_img1",
@@ -1738,7 +2209,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/12.renaissance.intro_page6_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "91d757dc59586a12",
+    "dhash": "68ccdcdede179d5b",
+    "ahash": "3c3f2f2f7f0f0101"
   },
   {
     "id": "12.renaissance.intro_page_7_page7_img2",
@@ -1749,7 +2223,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/12.renaissance.intro_page7_img2.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9f78b029c13664db",
+    "dhash": "327975d4d26a78e8",
+    "ahash": "081cbc3e38001c3e"
   },
   {
     "id": "12.renaissance.intro_page_7_page7_img1",
@@ -1760,7 +2237,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/12.renaissance.intro_page7_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9ab94b64496cb29d",
+    "dhash": "b7999897a42c62e9",
+    "ahash": "180f0f4bd680303c"
   },
   {
     "id": "9.intro.medieval europe_page_29_page29_img1",
@@ -1771,7 +2251,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/9.intro.medieval europe_page29_img1.jpeg",
     "presentation": "9.intro.medieval europe",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d09789336d4c2f78",
+    "dhash": "f0ccc4ccccccb094",
+    "ahash": "3e7e7e7e66245c44"
   },
   {
     "id": "12.renaissance.intro_page_13_page13_img1",
@@ -1782,7 +2265,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/12.renaissance.intro_page13_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "f02d47520dad5a2f",
+    "dhash": "d486a79696bc02c4",
+    "ahash": "0043c3dbdfdce000"
   },
   {
     "id": "12.renaissance.intro_page_13_page13_img2",
@@ -1793,7 +2279,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/12.renaissance.intro_page13_img2.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "cbdc8623e13d991a",
+    "dhash": "e9613157494949c9",
+    "ahash": "7cb898e0e8e120fd"
   },
   {
     "id": "12.renaissance.intro_page_15_page15_img1",
@@ -1804,7 +2293,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/12.renaissance.intro_page15_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "f02d47520dad5a2f",
+    "dhash": "d486a79696bc02c4",
+    "ahash": "0043c3dbdfdcf000"
   },
   {
     "id": "12.renaissance.intro_page_15_page15_img2",
@@ -1815,7 +2307,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/12.renaissance.intro_page15_img2.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c5a96a427a93d687",
+    "dhash": "11a262d8c4c44480",
+    "ahash": "c1c3ff7e74342000"
   },
   {
     "id": "12.renaissance.intro_page_16_page16_img1",
@@ -1826,7 +2321,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/12.renaissance.intro_page16_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "965b7a27258d8e68",
+    "dhash": "5819383aee2d2f0c",
+    "ahash": "008cfc1e1f1787c0"
   },
   {
     "id": "12.renaissance.intro_page_19_page19_img1",
@@ -1837,7 +2335,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/12.renaissance.intro_page19_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "8e9b4e49799482e7",
+    "dhash": "33717531f3ece4a4",
+    "ahash": "9999bf9f093e3600"
   },
   {
     "id": "1.bezalel.intro 2026_page_6_page6_img1",
@@ -1848,7 +2349,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/1.bezalel.intro 2026_page6_img1.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9cf033478e62bc8d",
+    "dhash": "0d1e32b272324b39",
+    "ahash": "00cfdfff3b000008"
   },
   {
     "id": "1.bezalel.intro 2026_page_8_page8_img1",
@@ -1859,7 +2363,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/1.bezalel.intro 2026_page8_img1.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "96368a3ab6b5898d",
+    "dhash": "4d55ec8c34e0e8e8",
+    "ahash": "2f243e0600107f7f"
   },
   {
     "id": "12.renaissance.intro_page_17_page17_img1",
@@ -1870,7 +2377,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/12.renaissance.intro_page17_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "96368a3f36b5888d",
+    "dhash": "4d55ec8cb4e0e8e8",
+    "ahash": "2f243e0600187f7f"
   },
   {
     "id": "1.bezalel.intro 2026_page_5_page5_img1",
@@ -1881,7 +2391,10 @@ const ARTWORK_DATA = [
     "era": "Early Renaissance",
     "image_path": "images/1.bezalel.intro 2026_page5_img1.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d70879a502de2f71",
+    "dhash": "9492f8e8e86270c0",
+    "ahash": "00083c7c7ebefe00"
   },
   {
     "id": "12.renaissance.intro_page_8_page8_img1",
@@ -1892,7 +2405,10 @@ const ARTWORK_DATA = [
     "era": "High Renaissance",
     "image_path": "images/12.renaissance.intro_page8_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e94e7333124d4c9b",
+    "dhash": "b4e8e2a208969a9b",
+    "ahash": "000078ffffcfcbc0"
   },
   {
     "id": "4.bezalel.intro.mesopotamian.egyptian 2026_page_3_page3_img1",
@@ -1903,7 +2419,10 @@ const ARTWORK_DATA = [
     "era": "Baroque & Rococo",
     "image_path": "images/4.bezalel.intro.mesopotamian.egyptian 2026_page3_img1.jpeg",
     "presentation": "4.bezalel.intro.mesopotamian.egyptian 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "9452be1fae1da078",
+    "dhash": "7cdcbcfcfcfcfc0f",
+    "ahash": "1c3e7e3e3e1e0eff"
   },
   {
     "id": "1.bezalel.intro 2026_page_4_page4_img1",
@@ -1914,7 +2433,10 @@ const ARTWORK_DATA = [
     "era": "19th Century",
     "image_path": "images/1.bezalel.intro 2026_page4_img1.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d6602ecdffe21086",
+    "dhash": "354d9c8c4cb06575",
+    "ahash": "000044e6fefeff9f"
   },
   {
     "id": "1.bezalel.intro 2026_page_9_page9_img1",
@@ -1925,7 +2447,10 @@ const ARTWORK_DATA = [
     "era": "Modern",
     "image_path": "images/1.bezalel.intro 2026_page9_img1.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "e7b2cb9499679448",
+    "dhash": "480e0e0e16460703",
+    "ahash": "efe7e3e3c3e3e1f9"
   },
   {
     "id": "1.bezalel.intro 2026_page_5_page5_img2",
@@ -1936,7 +2461,10 @@ const ARTWORK_DATA = [
     "era": "Modern",
     "image_path": "images/1.bezalel.intro 2026_page5_img2.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "c4cf363c18cbe362",
+    "dhash": "24e4c0e1a0a0f1ac",
+    "ahash": "1030787c7c783800"
   },
   {
     "id": "12.renaissance.intro_page_20_page20_img1",
@@ -1947,7 +2475,10 @@ const ARTWORK_DATA = [
     "era": "Modern",
     "image_path": "images/12.renaissance.intro_page20_img1.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "d12ed57b80e426d3",
+    "dhash": "1070d5d551595290",
+    "ahash": "0000001c2dedfeff"
   },
   {
     "id": "12.renaissance.intro_page_20_page20_img2",
@@ -1958,7 +2489,10 @@ const ARTWORK_DATA = [
     "era": "Modern",
     "image_path": "images/12.renaissance.intro_page20_img2.jpeg",
     "presentation": "12.renaissance.intro",
-    "page_number": ""
+    "page_number": "",
+    "phash": "81f19f4ecc247393",
+    "dhash": "e0d8dc969169fdf8",
+    "ahash": "ffff6f42000000ff"
   },
   {
     "id": "1.bezalel.intro 2026_page_7_page7_img1",
@@ -1969,7 +2503,10 @@ const ARTWORK_DATA = [
     "era": "Modern",
     "image_path": "images/1.bezalel.intro 2026_page7_img1.jpeg",
     "presentation": "1.bezalel.intro 2026",
-    "page_number": ""
+    "page_number": "",
+    "phash": "81f19f4ecc247393",
+    "dhash": "e0d8dc969169fdb8",
+    "ahash": "ffff6f42000000ff"
   }
 ];
 

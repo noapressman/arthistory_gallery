@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search - Art History Timeline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Art History Timeline</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="timeline.html">Timeline</a>
+            <a href="presentations.html">Presentations</a>
+            <a href="search.html" class="active">Search</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="search-page">
+            <div class="search-header">
+                <h1>Image Search</h1>
+                <p>Upload an image to find similar artworks in the collection</p>
+            </div>
+
+            <!-- Upload area -->
+            <div class="upload-area" id="uploadArea" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)">
+                <input type="file" id="fileInput" accept="image/*" onchange="handleFileSelect(event)" style="display: none;">
+                <div class="upload-content" id="uploadContent">
+                    <div class="upload-icon">📷</div>
+                    <p>Drag and drop an image here</p>
+                    <p class="upload-or">or</p>
+                    <button onclick="document.getElementById('fileInput').click()" class="btn btn-primary">Choose File</button>
+                </div>
+                <div class="upload-preview" id="uploadPreview" style="display: none;">
+                    <img id="previewImage" src="" alt="Preview">
+                    <button onclick="clearUpload()" class="btn btn-small btn-danger">Clear</button>
+                </div>
+            </div>
+
+            <!-- Loading indicator -->
+            <div class="search-loading" id="searchLoading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Computing image hash and searching...</p>
+            </div>
+
+            <!-- Results -->
+            <div class="search-results" id="searchResults" style="display: none;">
+                <h2>Similar Images</h2>
+                <div class="results-grid" id="resultsGrid"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Result detail modal -->
+    <div id="resultModal" class="modal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <img id="modalImage" src="" alt="">
+            <div class="modal-info">
+                <h2 id="modalTitle">Unknown</h2>
+                <p id="modalDate"></p>
+                <p id="modalSimilarity" class="similarity-badge"></p>
+                <span id="modalEra" class="era-badge"></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden canvas for image processing -->
+    <canvas id="hashCanvas" style="display: none;"></canvas>
+
+    <script src="js/data.js"></script>
+    <script>
+        let currentFile = null;
+
+        // ============ Perceptual Hash Functions ============
+
+        /**
+         * Compute average hash (aHash) for an image
+         * 1. Resize to 8x8
+         * 2. Convert to grayscale
+         * 3. Compute mean
+         * 4. Create binary hash based on whether each pixel is above/below mean
+         */
+        function computeAverageHash(imageData) {
+            const canvas = document.getElementById('hashCanvas');
+            const ctx = canvas.getContext('2d');
+
+            // Resize to 8x8
+            canvas.width = 8;
+            canvas.height = 8;
+
+            // Draw image scaled down
+            ctx.drawImage(imageData, 0, 0, 8, 8);
+
+            // Get pixel data
+            const pixels = ctx.getImageData(0, 0, 8, 8).data;
+
+            // Convert to grayscale values
+            const grays = [];
+            for (let i = 0; i < pixels.length; i += 4) {
+                // Luminance formula
+                const gray = pixels[i] * 0.299 + pixels[i+1] * 0.587 + pixels[i+2] * 0.114;
+                grays.push(gray);
+            }
+
+            // Compute mean
+            const mean = grays.reduce((a, b) => a + b, 0) / grays.length;
+
+            // Create hash: 1 if pixel > mean, 0 otherwise
+            let hash = '';
+            for (let i = 0; i < grays.length; i += 4) {
+                let nibble = 0;
+                for (let j = 0; j < 4 && i + j < grays.length; j++) {
+                    if (grays[i + j] > mean) {
+                        nibble |= (1 << (3 - j));
+                    }
+                }
+                hash += nibble.toString(16);
+            }
+
+            return hash;
+        }
+
+        /**
+         * Compute Hamming distance between two hex hashes
+         */
+        function hammingDistance(hash1, hash2) {
+            if (hash1.length !== hash2.length) {
+                // Pad shorter hash
+                const maxLen = Math.max(hash1.length, hash2.length);
+                hash1 = hash1.padStart(maxLen, '0');
+                hash2 = hash2.padStart(maxLen, '0');
+            }
+
+            let distance = 0;
+            for (let i = 0; i < hash1.length; i++) {
+                const n1 = parseInt(hash1[i], 16);
+                const n2 = parseInt(hash2[i], 16);
+                const xor = n1 ^ n2;
+                // Count bits set in xor
+                distance += (xor & 1) + ((xor >> 1) & 1) + ((xor >> 2) & 1) + ((xor >> 3) & 1);
+            }
+            return distance;
+        }
+
+        /**
+         * Convert Hamming distance to similarity percentage
+         */
+        function distanceToSimilarity(distance, hashBits = 64) {
+            return Math.max(0, ((hashBits - distance) / hashBits) * 100);
+        }
+
+        // ============ Search Functions ============
+
+        function searchSimilarImages(queryHash) {
+            const results = [];
+
+            for (const item of ARTWORK_DATA) {
+                if (!item.ahash) continue;
+
+                const distance = hammingDistance(queryHash, item.ahash);
+                const similarity = distanceToSimilarity(distance);
+
+                results.push({
+                    ...item,
+                    distance: distance,
+                    similarity: similarity
+                });
+            }
+
+            // Sort by similarity (highest first)
+            results.sort((a, b) => b.similarity - a.similarity);
+
+            // Return top 20
+            return results.slice(0, 20);
+        }
+
+        // ============ UI Functions ============
+
+        function handleDragOver(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            document.getElementById('uploadArea').classList.add('drag-over');
+        }
+
+        function handleDragLeave(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            document.getElementById('uploadArea').classList.remove('drag-over');
+        }
+
+        function handleDrop(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            document.getElementById('uploadArea').classList.remove('drag-over');
+
+            const files = e.dataTransfer.files;
+            if (files.length > 0 && files[0].type.startsWith('image/')) {
+                handleFile(files[0]);
+            }
+        }
+
+        function handleFileSelect(e) {
+            if (e.target.files.length > 0) {
+                handleFile(e.target.files[0]);
+            }
+        }
+
+        function handleFile(file) {
+            currentFile = file;
+
+            // Show preview
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                document.getElementById('previewImage').src = e.target.result;
+                document.getElementById('uploadPreview').style.display = 'flex';
+                document.getElementById('uploadContent').style.display = 'none';
+
+                // Perform search
+                performSearch(e.target.result);
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function clearUpload() {
+            currentFile = null;
+            document.getElementById('uploadPreview').style.display = 'none';
+            document.getElementById('uploadContent').style.display = 'block';
+            document.getElementById('searchResults').style.display = 'none';
+            document.getElementById('fileInput').value = '';
+        }
+
+        function performSearch(imageSrc) {
+            document.getElementById('searchLoading').style.display = 'block';
+            document.getElementById('searchResults').style.display = 'none';
+
+            // Load image and compute hash
+            const img = new Image();
+            img.onload = function() {
+                // Compute hash
+                const hash = computeAverageHash(img);
+                console.log('Query hash:', hash);
+
+                // Search for similar images
+                const results = searchSimilarImages(hash);
+
+                document.getElementById('searchLoading').style.display = 'none';
+                displayResults(results);
+            };
+            img.src = imageSrc;
+        }
+
+        function displayResults(results) {
+            const grid = document.getElementById('resultsGrid');
+            grid.innerHTML = '';
+
+            if (results.length === 0) {
+                grid.innerHTML = '<p class="no-results">No similar images found</p>';
+                document.getElementById('searchResults').style.display = 'block';
+                return;
+            }
+
+            results.forEach(result => {
+                const card = document.createElement('div');
+                card.className = 'result-card';
+                card.onclick = () => showResultDetail(result);
+
+                const similarity = Math.round(result.similarity);
+                const simClass = similarity >= 80 ? 'high' : similarity >= 50 ? 'medium' : 'low';
+
+                card.innerHTML = `
+                    <div class="result-image">
+                        <img src="${result.image_path}" alt="${result.title}" loading="lazy">
+                        <span class="similarity-score ${simClass}">${similarity}%</span>
+                    </div>
+                    <div class="result-info">
+                        <div class="result-title">${result.title || 'Untitled'}</div>
+                        <div class="result-date">${result.date_display || ''}</div>
+                    </div>
+                `;
+
+                grid.appendChild(card);
+            });
+
+            document.getElementById('searchResults').style.display = 'block';
+        }
+
+        function showResultDetail(result) {
+            document.getElementById('modalImage').src = result.image_path;
+            document.getElementById('modalTitle').textContent = result.title || 'Untitled';
+            document.getElementById('modalDate').textContent = result.date_display || '';
+            document.getElementById('modalSimilarity').textContent = Math.round(result.similarity) + '% match';
+            document.getElementById('modalEra').textContent = result.era || '';
+            document.getElementById('resultModal').classList.add('active');
+        }
+
+        function closeModal(e) {
+            if (!e || e.target.classList.contains('modal')) {
+                document.getElementById('resultModal').classList.remove('active');
+            }
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+    </script>
+</body>
+</html>
