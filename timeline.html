@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeline - Art History Timeline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Art History Timeline</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="timeline.html" class="active">Timeline</a>
+            <a href="presentations.html">Presentations</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="timeline-page">
+            <div class="timeline-header">
+                <h1>Timeline</h1>
+                <p>Explore art history chronologically</p>
+                <div class="timeline-controls">
+                    <button onclick="zoomOut()" class="btn btn-secondary btn-small">-</button>
+                    <button onclick="zoomIn()" class="btn btn-secondary btn-small">+</button>
+                    <span class="zoom-level">Zoom: <span id="zoomLevel">100</span>%</span>
+                </div>
+            </div>
+
+            <div class="timeline-container" id="timelineContainer">
+                <div class="timeline-track" id="timelineTrack">
+                    <div class="era-markers" id="eraMarkers"></div>
+                    <div class="timeline-line"></div>
+                    <div class="timeline-items" id="timelineItems"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Detail Panel -->
+    <div id="detailPanel" class="detail-panel">
+        <button class="panel-close" onclick="closePanel()">&times;</button>
+        <img id="panelImage" src="" alt="">
+        <div class="panel-info">
+            <h2 id="panelTitle"></h2>
+            <span id="panelDate" class="date-badge"></span>
+            <p id="panelDescription" style="margin-top: 1rem; color: var(--text-secondary);"></p>
+            <span id="panelEra" class="era-badge" style="margin-top: 0.75rem;"></span>
+            <p id="panelSource" class="source-info"></p>
+            <div class="panel-actions">
+                <a id="panelPdfLink" href="#" target="_blank" class="btn btn-secondary btn-small" style="display: none;">View Original Slide</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script>
+        let zoom = 100;
+        const MIN_ZOOM = 50;
+        const MAX_ZOOM = 300;
+        const BASE_WIDTH = 15000;
+
+        function init() {
+            renderTimeline();
+        }
+
+        function renderTimeline() {
+            const track = document.getElementById('timelineTrack');
+            const items = document.getElementById('timelineItems');
+            const markers = document.getElementById('eraMarkers');
+
+            const width = BASE_WIDTH * (zoom / 100);
+            track.style.width = width + 'px';
+
+            // Get date range
+            const dates = ARTWORK_DATA.map(i => i.date_sort);
+            const minDate = Math.min(...dates);
+            const maxDate = Math.max(...dates);
+            const range = maxDate - minDate;
+
+            // Group by era for markers
+            const eras = {};
+            ARTWORK_DATA.forEach(item => {
+                if (!eras[item.era]) {
+                    eras[item.era] = { min: item.date_sort, max: item.date_sort };
+                } else {
+                    eras[item.era].min = Math.min(eras[item.era].min, item.date_sort);
+                    eras[item.era].max = Math.max(eras[item.era].max, item.date_sort);
+                }
+            });
+
+            // Render era markers
+            let markersHtml = '';
+            Object.entries(eras).forEach(([era, data]) => {
+                const left = ((data.min - minDate) / range) * 100;
+                const eraWidth = ((data.max - data.min) / range) * 100;
+                markersHtml += `
+                    <div class="era-marker" style="left: ${left}%; width: ${Math.max(eraWidth, 5)}%;">
+                        <span class="era-label">${era}</span>
+                    </div>
+                `;
+            });
+            markers.innerHTML = markersHtml;
+
+            // Render items - stagger vertically to avoid overlap
+            let html = '';
+            const positions = [];
+
+            ARTWORK_DATA.forEach((item, index) => {
+                const left = ((item.date_sort - minDate) / range) * 100;
+
+                // Calculate vertical position to avoid overlap
+                let top = 80;
+                const nearbyItems = positions.filter(p => Math.abs(p.left - left) < 3);
+                if (nearbyItems.length > 0) {
+                    const maxTop = Math.max(...nearbyItems.map(p => p.top));
+                    top = maxTop + 160;
+                }
+                positions.push({ left, top });
+
+                html += `
+                    <div class="timeline-item" style="left: ${left}%; top: ${top}px;" onclick="showDetail('${item.id}')">
+                        <div class="item-dot"></div>
+                        <div class="item-card">
+                            <img src="${item.image_path}" alt="${item.title}" loading="lazy">
+                            <div class="item-title">${item.title}</div>
+                            <div class="item-date">${item.date_display}</div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            items.innerHTML = html;
+
+            // Adjust track height based on items
+            const maxTop = Math.max(...positions.map(p => p.top));
+            track.style.minHeight = (maxTop + 200) + 'px';
+        }
+
+        function zoomIn() {
+            if (zoom < MAX_ZOOM) {
+                zoom += 25;
+                document.getElementById('zoomLevel').textContent = zoom;
+                renderTimeline();
+            }
+        }
+
+        function zoomOut() {
+            if (zoom > MIN_ZOOM) {
+                zoom -= 25;
+                document.getElementById('zoomLevel').textContent = zoom;
+                renderTimeline();
+            }
+        }
+
+        function showDetail(id) {
+            const item = ARTWORK_DATA.find(i => i.id === id);
+            if (!item) return;
+
+            document.getElementById('panelImage').src = item.image_path;
+            document.getElementById('panelTitle').textContent = item.title;
+            document.getElementById('panelDate').textContent = item.date_display;
+            document.getElementById('panelDescription').textContent = item.description || '';
+            document.getElementById('panelEra').textContent = item.era;
+
+            // Source info
+            let sourceText = '';
+            if (item.presentation) {
+                sourceText = `From: ${item.presentation}`;
+                if (item.page_number) {
+                    sourceText += `, Page ${item.page_number}`;
+                }
+            }
+            document.getElementById('panelSource').textContent = sourceText;
+
+            // PDF link
+            const pdfLink = document.getElementById('panelPdfLink');
+            if (item.presentation) {
+                const pdfFilename = item.presentation + '.pdf';
+                pdfLink.href = `presentations/${pdfFilename}`;
+                pdfLink.style.display = 'inline-flex';
+            } else {
+                pdfLink.style.display = 'none';
+            }
+
+            document.getElementById('detailPanel').classList.add('active');
+        }
+
+        function closePanel() {
+            document.getElementById('detailPanel').classList.remove('active');
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closePanel();
+        });
+
+        init();
+    </script>
+</body>
+</html>

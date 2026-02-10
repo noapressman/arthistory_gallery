@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Art History Timeline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Art History Timeline</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="gallery.html" class="active">Gallery</a>
+            <a href="timeline.html">Timeline</a>
+            <a href="presentations.html">Presentations</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="gallery-page">
+            <div class="gallery-header">
+                <h1>Gallery</h1>
+                <p id="galleryCount">Loading artworks...</p>
+
+                <div class="filter-controls">
+                    <label for="eraFilter">Filter by Era:</label>
+                    <select id="eraFilter" onchange="filterGallery()">
+                        <option value="">All Eras</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="galleryContent"></div>
+        </div>
+    </main>
+
+    <!-- Modal -->
+    <div id="artworkModal" class="modal" onclick="closeModal(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <img id="modalImage" src="" alt="">
+            <div class="modal-info">
+                <h2 id="modalTitle"></h2>
+                <p id="modalDate"></p>
+                <p id="modalDescription"></p>
+                <span id="modalEra" class="era-badge"></span>
+                <p id="modalSource" class="source-info"></p>
+                <div class="modal-actions">
+                    <a id="modalPdfLink" href="#" target="_blank" class="btn btn-secondary btn-small" style="display: none;">View Original Slide</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script>
+        let currentFilter = '';
+
+        function init() {
+            populateEraFilter();
+            renderGallery();
+        }
+
+        function populateEraFilter() {
+            const select = document.getElementById('eraFilter');
+            const eras = [...new Set(ARTWORK_DATA.map(item => item.era))];
+
+            // Sort eras by earliest date in each
+            const eraOrder = {};
+            ARTWORK_DATA.forEach(item => {
+                if (!eraOrder[item.era] || item.date_sort < eraOrder[item.era]) {
+                    eraOrder[item.era] = item.date_sort;
+                }
+            });
+            eras.sort((a, b) => eraOrder[a] - eraOrder[b]);
+
+            eras.forEach(era => {
+                const option = document.createElement('option');
+                option.value = era;
+                option.textContent = era;
+                select.appendChild(option);
+            });
+        }
+
+        function filterGallery() {
+            currentFilter = document.getElementById('eraFilter').value;
+            renderGallery();
+        }
+
+        function renderGallery() {
+            const container = document.getElementById('galleryContent');
+            const countEl = document.getElementById('galleryCount');
+
+            let items = ARTWORK_DATA;
+            if (currentFilter) {
+                items = items.filter(item => item.era === currentFilter);
+            }
+
+            countEl.textContent = `${items.length} artworks`;
+
+            // Group by era
+            const grouped = {};
+            items.forEach(item => {
+                if (!grouped[item.era]) {
+                    grouped[item.era] = [];
+                }
+                grouped[item.era].push(item);
+            });
+
+            // Sort eras chronologically
+            const sortedEras = Object.keys(grouped).sort((a, b) => {
+                const aMin = Math.min(...grouped[a].map(i => i.date_sort));
+                const bMin = Math.min(...grouped[b].map(i => i.date_sort));
+                return aMin - bMin;
+            });
+
+            let html = '';
+            sortedEras.forEach(era => {
+                html += `
+                    <div class="era-section">
+                        <h2 class="era-title">${era}</h2>
+                        <div class="gallery-grid">
+                `;
+
+                grouped[era].forEach(item => {
+                    html += `
+                        <div class="gallery-card" onclick="showModal('${item.id}')">
+                            <div class="card-image">
+                                <img src="${item.image_path}" alt="${item.title}" loading="lazy">
+                            </div>
+                            <div class="card-info">
+                                <div class="card-title">${item.title}</div>
+                                <div class="card-date">${item.date_display}</div>
+                            </div>
+                        </div>
+                    `;
+                });
+
+                html += '</div></div>';
+            });
+
+            container.innerHTML = html || '<div class="empty-state"><h2>No artworks found</h2></div>';
+        }
+
+        function showModal(id) {
+            const item = ARTWORK_DATA.find(i => i.id === id);
+            if (!item) return;
+
+            document.getElementById('modalImage').src = item.image_path;
+            document.getElementById('modalTitle').textContent = item.title;
+            document.getElementById('modalDate').textContent = item.date_display;
+            document.getElementById('modalDescription').textContent = item.description || '';
+            document.getElementById('modalEra').textContent = item.era;
+
+            // Source info
+            let sourceText = '';
+            if (item.presentation) {
+                sourceText = `From: ${item.presentation}`;
+                if (item.page_number) {
+                    sourceText += `, Page ${item.page_number}`;
+                }
+            }
+            document.getElementById('modalSource').textContent = sourceText;
+
+            // PDF link
+            const pdfLink = document.getElementById('modalPdfLink');
+            if (item.presentation) {
+                const pdfFilename = item.presentation + '.pdf';
+                pdfLink.href = `presentations/${pdfFilename}`;
+                pdfLink.style.display = 'inline-flex';
+            } else {
+                pdfLink.style.display = 'none';
+            }
+
+            document.getElementById('artworkModal').classList.add('active');
+        }
+
+        function closeModal(e) {
+            if (!e || e.target.classList.contains('modal')) {
+                document.getElementById('artworkModal').classList.remove('active');
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        init();
+    </script>
+</body>
+</html>

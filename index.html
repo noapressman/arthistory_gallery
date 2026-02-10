@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art History Timeline</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Art History Timeline</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="timeline.html">Timeline</a>
+            <a href="presentations.html">Presentations</a>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="home-page">
+            <h1>Art Through Time</h1>
+            <p class="subtitle">A chronological journey through art history</p>
+
+            <div class="stats-grid" id="statsGrid">
+                <div class="stat-card highlight">
+                    <div class="stat-number" id="totalArtworks">-</div>
+                    <div class="stat-label">Artworks</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="totalEras">-</div>
+                    <div class="stat-label">Eras</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="totalPresentations">12</div>
+                    <div class="stat-label">Presentations</div>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <a href="gallery.html" class="btn btn-primary btn-large">View Gallery</a>
+                <a href="timeline.html" class="btn btn-secondary btn-large">Explore Timeline</a>
+            </div>
+
+            <div class="instructions">
+                <h2>About This Collection</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                    This timeline presents artworks from prehistoric times through the Renaissance,
+                    organized chronologically and grouped by era. Each piece includes information
+                    about its date, origin, and significance in art history.
+                </p>
+                <p style="color: var(--text-secondary);">
+                    Browse the <strong>Gallery</strong> to see all artworks organized by era,
+                    or explore the interactive <strong>Timeline</strong> for a visual journey through history.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/data.js"></script>
+    <script>
+        // Populate stats from data
+        document.getElementById('totalArtworks').textContent = STATS.total_items;
+        document.getElementById('totalEras').textContent = Object.keys(STATS.eras).length;
+    </script>
+</body>
+</html>
